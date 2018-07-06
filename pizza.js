@@ -59,7 +59,6 @@ var pricesau = 0;
 var cheese = 10;
 var suma = pricepep + pricemus + pricegre + pricecru + pricesau + cheese;
 
-//Orientazión pal detalle
 $(document).on("ready", function() {
 	$(".pep, .green-pepper, .mushroom div").hide(); 
 	$(".sauce-white").removeClass("sauce-white");
